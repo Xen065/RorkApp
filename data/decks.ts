@@ -1,0 +1,40 @@
+import type { Deck } from "@/types/flashcard";
+
+export const DECKS: Deck[] = [
+  {
+    id: "static-gk",
+    name: "Static GK",
+    description: "Geography, History, Polity & More",
+    icon: "book-open",
+    color: "#6366F1",
+    isPremium: true,
+    totalCards: 250,
+    newCards: 0,
+    reviewCards: 0,
+    category: "Premium",
+  },
+  {
+    id: "current-affairs",
+    name: "Current Affairs",
+    description: "Monthly Updated Topics",
+    icon: "newspaper",
+    color: "#EC4899",
+    isPremium: true,
+    totalCards: 180,
+    newCards: 0,
+    reviewCards: 0,
+    category: "Premium",
+  },
+  {
+    id: "vocabulary",
+    name: "Vocabulary",
+    description: "Essential Words for Exams",
+    icon: "message-square",
+    color: "#8B5CF6",
+    isPremium: false,
+    totalCards: 120,
+    newCards: 0,
+    reviewCards: 0,
+    category: "Free",
+  },
+];
